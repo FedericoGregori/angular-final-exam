@@ -4,8 +4,8 @@ module.exports = (formulario) => {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'solticredes@gmail.com', // Cambialo por tu email
-      pass: '33122489f' // Cambialo por tu password
+      user: 'angularfinalmail@gmail.com', // Cambialo por tu email
+      pass: 'federty15' // Cambialo por tu password
     }
   });
 
