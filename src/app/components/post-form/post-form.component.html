@@ -1,0 +1,18 @@
+<h2>Agregar Post</h2>
+<div class="card card-body mb-3">
+  <form>
+    <div class="form-group">
+      <label>Título</label>
+      <input type="text" class="form-control" [(ngModel)]="currentPost.title" name="title" #title>
+    </div>
+    <div class="form-group">
+      <label>Texto</label>
+      <input type="text" class="form-control" [(ngModel)]="currentPost.body" name="body" #body>
+    </div>
+    <input type="hidden" [(ngModel)]="currentPost.id" name="id">
+
+    <button *ngIf="!isEdit" (click)="addPost(title.value, body.value)" class="btn btn-dark btn-block">Agregar Post</button>
+
+    <button *ngIf="isEdit" (click)="updatePost()" class="btn btn-warning btn-block">Editar Post</button>
+  </form>
+</div>
