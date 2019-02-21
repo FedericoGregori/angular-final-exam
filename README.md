@@ -11,6 +11,8 @@ npm i
 ```
 ## Email server:
 
+* Editar emailservice/src/configMensaje.js con las credenciales de un mail existente
+
 emailservice folder
 
 ```bash
