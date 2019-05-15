@@ -7,7 +7,7 @@ La aplicación responde a las consignas impuestas por la cátedra para el trabaj
 Using npm
 
 ```bash
-npm i
+$ npm i
 ```
 ## Email server:
 
@@ -16,13 +16,13 @@ npm i
 emailservice folder
 
 ```bash
-npm i
+$ npm i
 ```
 
 ## Uso
 
 ```angular
-ng serve
+$ ng serve
 ```
 
 ## Email server:
@@ -30,7 +30,7 @@ ng serve
 emailservice/src folder
 
 ```
-nodemon app.js
+$ nodemon app.js
 ```
 
 
